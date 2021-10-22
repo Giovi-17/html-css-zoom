@@ -8,4 +8,36 @@
 /* COMMON */
 body{
     font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.flex{
+    display: flex;
+}
+
+/* buttons */
+
+.header-buttons:hover{
+    cursor: pointer;
+}
+
+/* HEADER */
+header{
+    height: 70px;
+    background-color: black;
+}
+
+.view{
+    justify-content: flex-end;
+}
+
+.header-buttons{
+    background-color: #4a4a4a;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.view-left i{
+    margin-right: 5px;
 }
