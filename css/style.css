@@ -46,11 +46,13 @@ header{
 
 /* main-top */
 .main-top{
-    height: calc( 100vh - 140px );
+    height: calc( 100vh - 170px );
     flex-wrap: wrap;
     overflow-y: auto;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
     background-color: black;
+    padding: 0 80px;
 }
 
 .user{
@@ -76,6 +78,47 @@ header{
 
 /* main-bottom */
 .main-bottom{
-    height: 70px;
+    height: 100px;
     background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.main-bottom-left .container-icon{
+    margin-right: 20px;
+}
+
+.icon-total{
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 20px 5px 10px;
+}
+
+.icon{
+    justify-content: center;
+    margin: 5px;
+}
+
+.green{
+    color: #4bc800;
+}
+
+.container-icon{
+    align-items: center;
+}
+
+/* Right */
+.main-bottom-right{
+    height: 100%;
+}
+
+.end-meeting{
+    background-color: #4a4a4a;
+    color: red;
+    padding: 0px 25px;
+}
+
+.end-meeting span{
+    align-self: center;
 }
