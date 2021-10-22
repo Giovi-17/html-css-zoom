@@ -17,7 +17,7 @@ body{
 
 /* buttons */
 
-.header-buttons:hover{
+.header-buttons:hover, .container-icon:hover, .end-meeting:hover{
     cursor: pointer;
 }
 
