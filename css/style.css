@@ -41,3 +41,41 @@ header{
 .view-left i{
     margin-right: 5px;
 }
+
+/* MAIN */
+
+/* main-top */
+.main-top{
+    height: calc( 100vh - 140px );
+    flex-wrap: wrap;
+    overflow-y: auto;
+    justify-content: center;
+    background-color: black;
+}
+
+.user{
+    width: 300px;
+    height: 178px;
+    position: relative;
+    padding: 0 5px 10px 5px;
+}
+
+.user-image img{
+    width: 100%;
+}
+
+.user-name{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 7px;
+    left: 5px;
+    padding: 5px;
+
+}
+
+/* main-bottom */
+.main-bottom{
+    height: 70px;
+    background-color: #222222;
+}
